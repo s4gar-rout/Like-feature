@@ -58,4 +58,10 @@ main .wraper i {
   transform: translate(-50%, -50%) scale(0) rotate(-90deg);
   opacity: 0;
   transition: all 0.2s ease;
+}
+
+@media (max-width: 720px) {
+  main .wraper i {
+    font-size: 25vw;
+  }
 }/*# sourceMappingURL=style.css.map */
